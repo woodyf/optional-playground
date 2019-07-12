@@ -29,7 +29,7 @@ public class OrElseTest extends BaseTest {
 	}
 
 	@Test
-	private void nullRef() {
+	public void nullRef() {
 		// when you reeeeeeeeally need a null reference
 		final String str = strOptEmpty().orElse(null);
 		logger.debug("str = {}", str);
